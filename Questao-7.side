@@ -1,0 +1,105 @@
+{
+  "id": "0db0ad9c-dce4-40cb-80c9-44a58e585b81",
+  "version": "2.0",
+  "name": "Questao-7",
+  "url": " https://example.com.",
+  "tests": [{
+    "id": "040b42d5-3b37-4941-9218-63b14a61ae60",
+    "name": "Questao-7",
+    "commands": [{
+      "id": "2714ada2-e5f9-4fd1-ac4a-109e2ededcc9",
+      "comment": "",
+      "command": "open",
+      "target": "https://example.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2a2ae3f-97ff-4f67-9949-43a00f483045",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1035x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c5ff70-002a-4bd7-9113-8af5ea7fcc79",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More information...",
+      "targets": [
+        ["linkText=More information...", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'More information...')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.iana.org/domains/example')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'More information...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e16759d-643c-4f23-a826-aece95d2b366",
+    "name": "Questao_7",
+    "commands": [{
+      "id": "cacf47ae-62d4-4675-beeb-4266cac7320b",
+      "comment": "",
+      "command": "open",
+      "target": "https://example.com./",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64b9b215-c422-488f-a409-cdb7543ea4fa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1035x692",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "080e95a9-d7a6-4288-ba14-9a123886ea5f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=More information...",
+      "targets": [
+        ["linkText=More information...", "linkText"],
+        ["css=a", "css:finder"],
+        ["xpath=//a[contains(text(),'More information...')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.iana.org/domains/example')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'More information...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a672aba-1055-4256-9020-3464ad147ea3",
+      "comment": "",
+      "command": "click",
+      "target": "id=header",
+      "targets": [
+        ["id=header", "id"],
+        ["css=#header", "css:finder"],
+        ["xpath=//div[@id='header']", "xpath:attributes"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd15257c-8a4b-40c4-aa95-412ade89048d",
+      "comment": "",
+      "command": "click",
+      "target": "css=img",
+      "targets": [
+        ["css=img", "css:finder"],
+        ["xpath=//img[@alt='Homepage']", "xpath:img"],
+        ["xpath=//div[@id='logo']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "04afa5d0-5eb1-4bbd-afe6-1394c167b8a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["040b42d5-3b37-4941-9218-63b14a61ae60"]
+  }],
+  "urls": [],
+  "plugins": []
+}
