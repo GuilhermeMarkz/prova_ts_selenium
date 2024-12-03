@@ -1,4 +1,4 @@
-# prova_ts_slenium
+# prova_ts_selenium
 # Prova de Teste de Software com Selenium
 
 Q1:
