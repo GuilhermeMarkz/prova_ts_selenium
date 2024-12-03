@@ -1,5 +1,6 @@
 # prova_ts_slenium
-Prova de Teste de Software com Selenium
+# Prova de Teste de Software com Selenium
+
 Q1:
 Selenium IDE é uma ferramenta mais simples, funcionando como uma extensão do navegador, focada em testes sem a necessidade de codificação, pois o seu propósito é de ser uma solução rápida e fácil. Enquanto o Selenium WebDriver é uma API avançada para automação de testes, tendo a necessidade de codificação para maior controle e flexibilidade, sendo ideal para automação de testes em larga escala e para realizar testes complexos e personalizados.
 
@@ -9,13 +10,13 @@ No Selenium WebDriver, existem vários tipos de localizadores usados para encont
 Q3:
 WebElement no Selenium é uma interface que representa um elemento HTML na página web, permitindo que você interaja com o conteúdo e os atributos de um elemento, como clicar, digitar texto, verificar o valor, obter informações, entre outros. Um exemplo do uso de WebElement no python:
 
-# Encontrar um elemento (por exemplo, um campo de input) pelo ID 
+Encontrar um elemento (por exemplo, um campo de input) pelo ID 
 elemento = driver.find_element(By.id("campoNome")) 
 
-# Interagir com o WebElement - digitar texto no campo
+Interagir com o WebElement - digitar texto no campo
 elemento.send_keys("Texto de Exemplo") 
 
-# Encontrar um botão e clicar nele 
+Encontrar um botão e clicar nele 
 botao = driver.find_element(By.id("botaoEnviar")) botao.click()
 
 Q4:
