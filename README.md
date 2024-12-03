@@ -11,12 +11,15 @@ Q3:
 WebElement no Selenium é uma interface que representa um elemento HTML na página web, permitindo que você interaja com o conteúdo e os atributos de um elemento, como clicar, digitar texto, verificar o valor, obter informações, entre outros. Um exemplo do uso de WebElement no python:
 
 Encontrar um elemento (por exemplo, um campo de input) pelo ID 
+
 elemento = driver.find_element(By.id("campoNome")) 
 
 Interagir com o WebElement - digitar texto no campo
+
 elemento.send_keys("Texto de Exemplo") 
 
 Encontrar um botão e clicar nele 
+
 botao = driver.find_element(By.id("botaoEnviar")) botao.click()
 
 Q4:
